@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.student-details {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.student-details thead th, .student-details tbody td {
+    border: 1px solid #120e0e;
+    padding: 8px;
+}
+
+.student-details tr:nth-child(even) {
+    background-color: #dadffc;
+}
+
+.student-details tr:hover {
+    background-color: #4accf8;
+}
+
+.student-details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3d49cf;
+    color: white;
+}
