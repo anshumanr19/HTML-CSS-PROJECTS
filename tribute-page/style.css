@@ -32,12 +32,11 @@
   }
   
   .image_container {
-    border-radius: 45%;
+    border-radius: 35%;
     overflow: hidden;
   }
   
-  .image_container,
-  img {
+  .image_container, img {
     width: 300px;
     height: 320px;
   }
